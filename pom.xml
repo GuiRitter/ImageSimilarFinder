@@ -46,6 +46,7 @@
 			<artifactId>jackson-databind</artifactId>
 			<version>[1.0.0,)</version>
 		</dependency>
+
 		<dependency>
 			<groupId>org.joml</groupId>
 			<artifactId>joml</artifactId>
