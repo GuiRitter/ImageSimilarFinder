@@ -64,6 +64,8 @@ public class ImageSimilarFinder {
 	}
 
 	private static final void storeAverage(File imageFile, Map<String, Vector3f> averageByImageFilePath) {
+		out.format("ImageSimilarFinder.storeAverage %s\n", imageFile.getAbsolutePath());
+
 		BufferedImage bufferedImage;
 
 		try {
